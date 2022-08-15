@@ -72,6 +72,30 @@ button:focus {
     flex-wrap: wrap;
 }
 
+.flex-column_s{
+    flex-direction: column;
+}
+
+.gap-1_s{
+    gap: 2px;
+}
+
+.gap-2_s{
+    gap: 4px;
+}
+
+.gap-3_s{
+    gap: 6px;
+}
+
+.gap-4_s{
+    gap: 8px;
+}
+
+.gap-5_s{
+    gap: 10px;
+}
+
 .p-1_s{
     padding: 10px;
 }
@@ -80,8 +104,100 @@ button:focus {
     padding: 20px;
 }
 
-.m-2_s{
+.p-3_s{
+    padding: 30px;
+}
 
+.p-4_s{
+    padding: 40px;
+}
+
+.p-5_s{
+    padding: 50px;
+}
+
+.m-auto_s{
+    margin: auto;
+}
+
+.mt-1_s{
+    margin-top: 10px;
+}
+
+.mt-2_s{
+    margin-top: 30px;
+}
+
+.mt-3_s{
+    margin-top: 50px;
+}
+
+.mt-4_s{
+    margin-top: 70px;
+}
+
+.mt-5_s{
+    margin-top: 90px;
+}
+
+.ml-1_s{
+    margin-left: 10px;
+}
+
+.ml-2_s{
+    margin-left: 30px;
+}
+
+.ml-3_s{
+    margin-left: 50px;
+}
+
+.ml-4_s{
+    margin-left: 70px;
+}
+
+.ml-5_s{
+    margin-left: 90px;
+}
+
+.mr-1_s{
+    margin-right: 10px;
+}
+
+.mr-2_s{
+    margin-right: 30px;
+}
+
+.mr-3_s{
+    margin-right: 50px;
+}
+
+.mr-4_s{
+    margin-right: 70px;
+}
+
+.mr-5_s{
+    margin-top: 90px;
+}
+
+.mb-1_s{
+    margin-bottom: 10px;
+}
+
+.mb-2_s{
+    margin-bottom: 30px;
+}
+
+.mb-3_s{
+    margin-bottom: 50px;
+}
+
+.mb-4_s{
+    margin-bottom: 70px;
+}
+
+.mb-5_s{
+    margin-bottom: 90px;
 }
 
 .border_s{
@@ -100,9 +216,18 @@ button:focus {
     border: 2px solid var(--blue);
 }
 
+.text-white_s{
+    color: var(--white);
+}
+
+.text-dark_s{
+    color: var(--black);
+}
+
 .text-blue_s{
     color: var(--blue);
 }
+
 
 .cont_s{
     width: var(--mobile);
@@ -128,10 +253,61 @@ button:focus {
 }
 
 .rounded_s{
+    border-radius: 5px;
+}
+
+.rounded-circe_s{
     border-radius: 50%;
 }
 
+
+.h1_s{
+    font-size: 32px;
+}
+
+.h2_s{
+    font-size: 28px;
+}
+
+.h3_s{
+    font-size: 23px;
+}
+
+.h4_s{
+    font-size: 20px;
+}
+
+.h5_s{
+    font-size: 17px;
+}
+
+
 /* End Of Predefined Classes  */
+
+
+
+
+
+
+
+
+
+.website_bg_s {
+    background-image: url("./Img/website_bg.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -100;
+}
+
+.login_cont_s {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 
